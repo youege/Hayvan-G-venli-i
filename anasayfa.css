@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://marketplace.canva.com/EAD29RnUHXo/2/0/1600w/canva-turquoise-dogs-and-paw-print-cute-virtual-background-6nPSmRqEqWw.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar {
+  height: 8vh;
+  width: 100%;
+  background: rgba(106, 105, 105, 0.5);
+  backdrop-filter: blur(7px);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  margin-right: 5px;
+}
+
+.nav-link {
+  text-decoration: none;
+    color: darkblue;
+    transition: 0.5s;
+    margin: 60px;
+    font-size: 17px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.nav-link:hover {
+  color: cyan;
+  font-size: 18px;
+}
+
+h1{
+  cursor: pointer;
+  color: rgb(159, 27, 82);
+  transition: 0.5s;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+
+i {
+  margin-right: 7px;
+  color: green;
+}
+
+i:hover{
+  margin-right: 7px;
+  font-size: 21px;
+}
+
+.kutu {
+  width: 570px;
+  height: 750px;
+  background-color: antiquewhite;
+  margin-top: 30px;
+  opacity: 0.8;
+  border-radius: 12px;
+  border: #1d0975 1px solid;
+  margin-left: 6px;
+}
+
+.kutu h3 {
+  color: red;
+  font-size: 27px;
+  font-family: fantasy;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.kutu p{
+  color: #333;
+  font-size: 25px;
+  font-family: cursive;
+  margin-left: 10px;
+  margin-top: -8px;
+}
+
+footer {
+  background-color: #1d0975;
+  backdrop-filter: blur(15px);
+  padding: 20px;
+  margin-top: 50px;
+  height: 450px;
+  width: 100%;
+  opacity: 0.97;
+}
+
+.footer-content {
+  align-items: center;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+
+.footer-content h3 {
+  cursor: pointer;
+  color: rgb(14, 117, 64);
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.5s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.footer-links ul li a {
+  color: #d91bd0;
+  text-decoration: none;
+  font-size: 18px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-links ul li a:hover {
+  color: rgb(180, 210, 90);
+}
+
+.footer-links ul li a:active {
+  color: rgb(14, 117, 64);
+}
+
+.footer-info p {
+  color: #d24e81;
+  margin-bottom: 5px;
+  font-size: 18px;
+  width: 350px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer-links ul li a i {
+  color: #fff;
+  font-size: 18px;  
+  margin-left: 5px;
+}

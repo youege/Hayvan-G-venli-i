@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='giris.css') }}">
+    <link rel="stylesheet" href="giris.css">
+    <title>Giriş</title>
+</head>
+<script>
+    document.getElementById("login-button").addEventListener("click", function() {
+        // Butona tıklandığında yapılacak işlemleri buraya yazabilirsiniz
+        // Örneğin, formu göndermek için:
+        document.getElementById("login-form").submit();
+    });
+</script>
+<body>
+    <div class="container">
+        <h2>Hoş Geldiniz</h2>
+        <h1>Giriş Yap</h1>
+        <form action="">
+            <div class="input-box">
+                <i class="fa-solid fa-envelope"></i></i><input type="email" placeholder="E-postanızı Giriniz" required>
+            </div>
+            <div class="input-box">
+                <i class="fa-solid fa-lock"></i><input type="password" placeholder="Şifrenizi Giriniz" required>
+            </div>
+            <div class="remember-box">
+               <label> <input type="checkbox">Beni Hatırla</label>
+               <a href="#">Şifremi Unuttum</a>
+            </div>
+            <button type="submit" class="btn">Giriş</button>
+            <div class="kayitol">
+            <p>Hesabın Yok Mu? <a href="kayit.html">Kayıt Ol</a></p>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

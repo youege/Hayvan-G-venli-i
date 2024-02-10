@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to right, #edad64, #f86014);
+}
+
+table {
+    width: 50%;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    background: linear-gradient(to right, #2ac4b2, #42e1a9, #1d4e73);
+}
+
+table:hover{
+    background: linear-gradient(to left, #93cd1f, #16b213, #1aba92);
+}
+
+table tr h2 {
+    color: red;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table td {
+    color: black;
+    font-size: 23px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+marquee {
+    font-size: 20px;
+    font-family: monospace;
+}

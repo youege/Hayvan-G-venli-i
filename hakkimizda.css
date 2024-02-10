@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  background: linear-gradient(to right, #b3d529, #4dd51b, #1d91c2);
+}
+
+.container {
+    width: 500px;
+    height: 850px;
+    text-align: start;
+    background-color: rgb(87, 77, 149);
+    border-radius: 12px;
+    border: 1px double red;
+    margin: 3px;
+    opacity: 0.95;
+}
+h1{
+    color: pink;
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container p {
+    font-family: monospace;
+    font-size: 24px;
+}
+
+.kutu{
+    width: 400px;
+    height: 345px;
+    background-color: aquamarine;
+    margin: 3px;;
+    border-radius: 12px;
+    border: 1px solid plum;
+    margin-left: 600px;
+    opacity: 0.95;
+}
+
+.kutu h2 {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    margin-left: 7px;
+}
+
+.kutu p{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 7px;
+}

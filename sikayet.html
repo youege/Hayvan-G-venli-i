@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sikayet.css">
+    <title>Şikayet</title>
+</head>
+<script>
+    document.getElementById('complaintForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Sayfanın yeniden yüklenmesini engeller
+
+        var email = document.getElementById('email').value;
+        var complaint = document.getElementById('complaint').value;
+
+        // Burada şikayet bilgilerini bir API'ye POST edebilirsiniz
+        // Örnek olarak, bir fetch isteği yapabiliriz:
+        fetch('/submit_complaint', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ email: email, complaint: complaint }),
+        })
+        .then(response => {
+            if (response.ok) {
+                alert('Şikayetiniz başarıyla gönderildi!');
+            } else {
+                alert('Şikayet gönderilirken bir hata oluştu.');
+            }
+        })
+        .catch(error => {
+            console.error('Hata:', error);
+            alert('Bir hata oluştu, lütfen tekrar deneyin.');
+        });
+    });
+</script>
+<body>
+    <div class="container">
+        <h1>Şikayetinizi Giriniz!</h1>
+        <form action="">
+            <div class="input-box">
+            <input type="email" placeholder="E-Postanızı Giriniz" required>
+        </div>
+        <div class="input-box">
+            <textarea id="complaint" name="complaint" placeholder="Şikayetinizi Giriniz" required></textarea>
+        </div>
+        <button type="submit" class="btn">Gönder</button>
+        </form>
+    </div>
+</body>
+</html>

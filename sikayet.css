@@ -1,0 +1,60 @@
+body{
+  background-image: url(https://img.freepik.com/free-vector/wild-fun-animal-paw-print-pattern-background-design-vector_1017-47618.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(165, 8, 8, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid #05037c;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-box {
+  margin-bottom: 20px;
+  margin-right: 18px;
+}
+
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px double #000000;
+  border-radius: 7px;
+  margin-right: 10px;
+  font-size: 17px;
+  font-family:cursive;
+}
+
+textarea {
+  height: 120px;
+}
+
+.btn {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  background-color: #720b82;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.btn:hover {
+  background-color: #330978;
+}
